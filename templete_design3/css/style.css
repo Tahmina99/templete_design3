@@ -1,0 +1,332 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Lora', serif;
+}
+#nav-section
+{
+    height: 80px;
+    width: 100%;
+    background-color: #343434;
+}
+#nav-section .nav-container
+{
+  margin: 0 auto;
+    width: 80%;
+}
+#nav-section .nav-container .logo 
+{
+    float: left;
+}
+#nav-section .nav-container .logo h1
+{
+  color:white;
+    font-size: 40px;
+    margin: 25px 0;
+    display: inline-block;
+}
+#nav-section .nav-container .menu
+{
+    float: left;
+    margin-left: 25%;
+}
+#nav-section .nav-container .menu ul
+
+{
+    float: left;
+   
+}
+#nav-section .nav-container .menu ul li
+{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 40px 10px;
+/*     position: relative;*/
+}
+#nav-section .nav-container .menu ul li a
+{
+  color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+    display: block;
+   
+}
+#nav-section .nav-container .menu ul li a::first-child
+{
+    color: bisque;
+}
+#nav-section .nav-container .menu ul li a:hover
+{
+    color:cornflowerblue;
+}
+/*
+#nav-section .nav-container .menu ul li :after
+{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 20px;
+    background-color: #fff;
+    top:10px;
+    right: 10px;
+}*/
+/* slider content*/
+.slider-content
+{
+    width: 80%;
+     margin: 0 auto;
+    border-bottom:2px dotted#333;
+    overflow: hidden;
+}
+.slider-content h2
+{
+  color:#393939; 
+    margin: 30px 0 10px;
+    font-size: 35px;
+    
+}
+.slider-content h2 span
+{
+    color:#2CC2F6;
+}
+
+.slider-content p
+{
+  color:#BCBCBC; 
+    margin-bottom: 10px;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.home-content
+{
+    width: 80%;
+    margin: 0 auto;
+    border-bottom:2px dotted#333;
+ 
+}
+.home-content p
+{
+    color:#000;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.home-content p span
+{
+    font-weight: bold;
+}
+.service
+{
+     width: 80%;
+    margin: 0 auto;
+     border-bottom:2px dotted#333;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    
+}
+.service .service-item
+{
+    float: left;
+    margin: 20px;
+    width: 28%;
+    text-align: center;
+     background-color: #02AEEF;
+    
+}
+.service .service-item h2
+{
+    color:#fff;
+    margin: 20px;
+  
+    
+}
+.service .service-item p
+{
+    color:#fff;
+    margin:0  20px; 
+    padding: 20px 0;
+       border-top:2px dotted#333;
+    line-height: 25px;
+}
+.service .service-item a
+{
+    color: #fff;
+    margin: 20px;
+    display: block;
+    line-height: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+    background-color:#0075A2; 
+    transition: 0.5s;
+}
+.service .service-item a:hover
+{
+    background-color: blue;
+}
+/*
+#bg-section
+{
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/g12.jpg);
+    clear: both;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+.client-project
+{
+   
+     width: 80%;
+    margin: 0 auto;
+     border-bottom:2px dotted#333;
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+.client-project .client-part 
+{
+   width: 50%; 
+    float: left;
+    border-right: 2px dotted#333;
+    margin: 10px;
+}
+.client-project .client-part h2
+{
+   margin: 5px;  
+}
+.client-project .client-part .client-info
+{
+
+height: 100px;
+margin: 10px;
+width: 97%;
+}
+.client-project .client-part .client-info img
+{
+    float: left;
+    margin-right: 30px;
+height: 100px;
+width: 100px;
+}
+.client-project .client-part .client-info p
+{
+/*    float: left;*/
+    margin: 10px;
+}
+.client-project .client-part .client-info h4
+{
+    margin: 10px; 
+}
+.client-project .client-part .client-info h4 span
+{
+    color:aqua;
+}
+.client-project .featured-part
+{
+    width: 45%; 
+    float: left;
+/*    background-color: chocolate;*/
+    margin: 10px;
+}
+.client-project .featured-part p
+{
+    float: left;
+}
+.client-project .featured-part span a
+{
+    color:aqua;
+    text-decoration: none;
+}
+.client-project .featured-part h3
+{
+    color:#B7B7B7;
+}
+ .client-project .featured-part .img-section
+{
+    height: 243px;
+    width: 100%;
+/*    background-color: aqua;*/
+    border: 1px solid #BCBCBC;
+    margin-top: 10px;
+}
+.client-project .featured-part .img-section h2
+{
+    margin: 10px;
+    float: left;
+}
+.client-project .featured-part .img-section h4
+{
+    margin: 10px 30px;
+    float: left;
+}
+.client-project .featured-part .img-section .featired-menu
+{
+    float: left;
+    margin-top: 5px;
+}
+/*
+.client-project .featured-part .img-section .featired-menu ul
+{
+    display: block;
+    overflow: hidden;
+    clear :both;
+    float: left;
+}
+*/
+.client-project .featured-part .img-section .featired-menu ul li
+{
+    display: block;
+float: left;
+margin: 10px 0 0 10px;
+overflow: hidden;
+padding: 5px;
+}
+.client-project .featured-part .img-section  .text-img
+{
+     height: 150px;
+    width: 100%;
+    background-color: #A89074;
+/*    border: 1px solid #de1b1b;*/
+    margin-top: 50px;
+    color:white;
+}
+.client-project .featured-part .img-section  .text-img .text-img1
+{
+    width:60%;
+/*    background-color: bisque;*/
+    float: left;
+}
+.client-project .featured-part .img-section  .text-img .text-img1 h2,p
+{
+    margin: 10px;
+    
+}
+
+.client-project .featured-part .img-section  .text-img .text-img2
+{
+    width:40%;
+/*    background-color: chartreuse;*/
+      float: left;
+}
+.client-project .featured-part .img-section  .text-img .text-img2 img
+{
+   height: 80px;
+margin: 20px 10px 10px 20px;
+width: 145px;
+}
+footer
+{background-color: aqua;
+margin-left: 10%;
+width: 80%;
+    margin-top: 10px;
+}
